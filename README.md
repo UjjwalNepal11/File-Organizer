@@ -27,7 +27,8 @@ it can be **undone** later.
 
 ## 2. Technology Used
 
-Built with **Python 3.11+** and the **standard-library** modules only:
+Built with **Python** and the **standard-library** modules only
+
 No Django, Flask, FastAPI or any other web framework. No third-party packages.
 
 ## 17. License
