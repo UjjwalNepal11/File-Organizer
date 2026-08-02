@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "file-organizer-duplicate-finder"
+version = "1.0.0"
+description = "A safe, command-line file organizer and duplicate finder built entirely on the Python standard library."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+authors = [
+    { name = "File Organizer and Duplicate Finder Contributors" },
+]
+keywords = ["file-organizer", "duplicate-finder", "cli", "file-management"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Filesystems",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+
